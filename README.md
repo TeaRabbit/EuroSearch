@@ -3,12 +3,11 @@
 Tested on Android 6.0 phone.
 
 Library used.
+- Butterknife
+- OkHttp3
+- EasyPermission. (Used for Android 6.0 runtime permission devices)
+- Google Map Utils.
+- Google Play Services
 
-Butterknife
-OkHttp3
-EasyPermission. (Used for Android 6.0 runtime permission devices)
-Google Map Utils.
-Google Play Services
-compile.
-
-./gradlew assembleDebug installDebug
+Compile.
+- ./gradlew assembleDebug installDebug

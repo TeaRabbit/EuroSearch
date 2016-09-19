@@ -12,12 +12,18 @@
     <AutoCompleteTextView
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:completionThreshold="1"
         android:id="@+id/origin" />
 
     <AutoCompleteTextView
         android:layout_below="@id/origin"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:completionThreshold="1"
         android:id="@+id/destination" />
 
     <EditText
@@ -32,6 +38,7 @@
         android:layout_width="match_parent"
         android:layout_below="@id/picker"
         android:text="Search"
+        android:enabled="false"
         android:id="@+id/search" />
 
 </RelativeLayout>
